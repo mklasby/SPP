@@ -1,0 +1,16 @@
+--extra-index-url  https://download.pytorch.org/whl/cu121 
+torch==2.1.0+cu121
+# transformers==4.28.0
+-e ../cb_specbench/third-party/transformers
+numpy~=1.0
+accelerate
+appdirs
+loralib
+bitsandbytes
+black
+black[jupyter]
+datasets
+fire
+sentencepiece
+gradio
+-e peft
